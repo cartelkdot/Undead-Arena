@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -39,6 +39,7 @@ public class JumpMan : MonoBehaviour
     private bool groundPounding;
     public bool wallJumping;
     public bool jumpDashing;
+    public bool shieldToggle;
 
     public void Awake()
     {
